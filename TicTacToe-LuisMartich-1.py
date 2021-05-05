@@ -21,7 +21,7 @@ def print_board(t): #function to draw the board
   def set(square):
     for i in range(3):
       square()
-      t.fd(100)
+      t.fd(1000)
       square()
       t.fd(100)
       square()
